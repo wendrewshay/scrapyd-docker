@@ -1,0 +1,12 @@
+version: "3"
+services:
+    scrapyd:
+        container_name: scrapyd
+        hostname: scrapyd
+        image: scrapyd:latest
+        ports:
+            - 6800:6800
+        network_mode: host
+        restart: always
+        volumes:
+            - /home/apps/scrapyd/app/:/usr/app/
