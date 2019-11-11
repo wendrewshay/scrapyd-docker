@@ -7,9 +7,9 @@ pymysql
 redis
 pymongo
 flask
+fake-useragent
+configparser
+apscheduler
 scrapy
 scrapyd
-scrapyd-client
-scrapy-redis
 scrapy-splash
-fake-useragent
